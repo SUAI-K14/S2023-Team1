@@ -19,7 +19,7 @@ int main(void)
 {
 	//Key constants
 	const char SERVER_IP[] = "127.0.0.1";					// Enter IPv4 address of Server
-	const short SERVER_PORT_NUM = 1;				// Enter Listening port on Server side
+	const short SERVER_PORT_NUM = 5002;				// Enter Listening port on Server side
 	const short BUFF_SIZE = 1024;					// Maximum size of buffer for exchange info between server and client
 	MSG_num = 1;
 	// Key variables for all program

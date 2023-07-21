@@ -6,15 +6,14 @@
 #include "data_generation.h"
 using namespace std;
 
-void generate(int size, vector<char>& msg) {
+void generate(int size,vector<char>&msg) {
 	srand(time(NULL));
-
+	
 
 
 	for (int i = 0; i < size; i++) {
 
-		//msg.push_back(symbols[rand() % 38]);
-		msg[i] = symbols[rand() % 38];
+		msg[i] = symbols[rand() % 38]; // генерим рандомный символ из data_generation.h
 
 	}
 
